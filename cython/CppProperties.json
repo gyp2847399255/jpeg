@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "inheritEnvironments": [
+        "msvc_x64"
+      ],
+      "name": "x64-Release",
+      "includePath": [
+        "${env.INCLUDE}",
+        "${workspaceRoot}\\**",
+        "C:\\Python39\\include"
+      ],
+      "defines": [
+        "WIN64",
+        "NDEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
+      "intelliSenseMode": "windows-msvc-x64"
+    }
+  ]
+}
